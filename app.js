@@ -71,6 +71,7 @@ document.getElementById('answer-btn').addEventListener('click', function (e) {
 })
 
 document.getElementById('clear').addEventListener('click', function (e) {
+
     document.getElementById('a11').value = 0;
     document.getElementById('a12').value = 0;
     document.getElementById('a13').value = 0;
@@ -90,4 +91,7 @@ document.getElementById('clear').addEventListener('click', function (e) {
     document.getElementById('b32').value = 0;
     document.getElementById('b33').value = 0;
 
+
+
 })
+document.getElementById('answer-2').style.display = 'block';

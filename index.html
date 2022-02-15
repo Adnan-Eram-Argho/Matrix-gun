@@ -12,8 +12,10 @@
 
 </head>
 
-<body>
+<body class="container">
+    <h1 class="mx-auto text-center">A matrix:</h1>
     <div class="container">
+
         <div class="row">
             <div class="col-4"><input type="text" value="1" id="a11"></div>
             <div class="col-4"><input type="text" value="2" id="a12"></div>
@@ -30,7 +32,9 @@
             <div class="col-4"><input type="text" value="0" id="a33"></div>
         </div>
     </div>
-    <div class="container mt-5">
+
+    <h1 class="mx-auto text-center mt-5">B matrix:</h1>
+    <div class="container ">
         <div class="row">
             <div class="col-4"><input type="text" value="1" id="b11"></div>
             <div class="col-4"><input type="text" value="2" id="b12"></div>
@@ -51,25 +55,28 @@
         <button id="answer-btn" class="btn btn-danger">Answer</button>
     </div>
 
-    <div class="container mt-5" id="answer">
+
+    <h1 class="mx-auto text-center mt-5">Multiplication of matrix:</h1>
+    <div class="container" id="answer-2">
         <div class="row">
-            <div class="col-4"><input type="text" value="1" id="c11"></div>
-            <div class="col-4"><input type="text" value="2" id="c12"></div>
+            <div class="col-4"><input type="text" value="0" id="c11"></div>
+            <div class="col-4"><input type="text" value="0" id="c12"></div>
             <div class="col-4"><input type="text" value="3" id="c13"></div>
         </div>
         <div class="row">
-            <div class="col-4"><input type="text" value="4" id="c21"></div>
-            <div class="col-4"><input type="text" value="5" id="c22"></div>
-            <div class="col-4"><input type="text" value="6" id="c23"></div>
+            <div class="col-4"><input type="text" value="0" id="c21"></div>
+            <div class="col-4"><input type="text" value="0" id="c22"></div>
+            <div class="col-4"><input type="text" value="0" id="c23"></div>
         </div>
         <div class="row">
-            <div class="col-4"><input type="text" value="8" id="c31"></div>
-            <div class="col-4"><input type="text" value="9" id="c32"></div>
+            <div class="col-4"><input type="text" value="0" id="c31"></div>
+            <div class="col-4"><input type="text" value="0" id="c32"></div>
             <div class="col-4"><input type="text" value="0" id="c33"></div>
         </div>
     </div>
-    <button class="btn btn-danger" id="clear"> clear</button>
-
+    <div class="container">
+        <button class="btn btn-danger " id="clear"> clear</button>
+    </div>
 
 
     <script src="app.js"></script>

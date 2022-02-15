@@ -1,6 +1,10 @@
 .container{
     width:300px;
 }
-/* #answer{
-    
-} */
+
+#answer-2{
+    display:none;
+}
+input{
+    width:100%;
+}
