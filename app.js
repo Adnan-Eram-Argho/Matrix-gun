@@ -69,3 +69,25 @@ document.getElementById('answer-btn').addEventListener('click', function (e) {
 
 
 })
+
+document.getElementById('clear').addEventListener('click', function (e) {
+    document.getElementById('a11').value = 0;
+    document.getElementById('a12').value = 0;
+    document.getElementById('a13').value = 0;
+    document.getElementById('a21').value = 0;
+    document.getElementById('a22').value = 0;
+    document.getElementById('a23').value = 0;
+    document.getElementById('a31').value = 0;
+    document.getElementById('a32').value = 0;
+    document.getElementById('a33').value = 0;
+    document.getElementById('b11').value = 0;
+    document.getElementById('b12').value = 0;
+    document.getElementById('b13').value = 0;
+    document.getElementById('b21').value = 0;
+    document.getElementById('b22').value = 0;
+    document.getElementById('b23').value = 0;
+    document.getElementById('b31').value = 0;
+    document.getElementById('b32').value = 0;
+    document.getElementById('b33').value = 0;
+
+})
